@@ -144,6 +144,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #e5e7eb;
 
 }
 
@@ -162,6 +163,6 @@ img {
     font-family: 'roboto', sans-serif;
     font-style: italic;
     font-size: 36px;
-
+    color: #1f2937;
     font-weight: 100;
 }

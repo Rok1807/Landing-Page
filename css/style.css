@@ -102,7 +102,7 @@ img {
 .small-imgcontainer {
     height: 100px;
     width: 100px;
-    
+
 }
 
 .maing {
@@ -124,6 +124,7 @@ img {
     align-items: center;
     padding: 20px;
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .information-header-text {
@@ -131,8 +132,36 @@ img {
     font-weight: 900;
     color: #1f2937;
 }
-.small-img{
+
+.small-img {
     height: 100px;
     width: 100px;
     border-radius: 8px;
+}
+
+.quote-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.group-quote {
+    width: 800px;
+}
+
+.quoter {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote {
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+
+    font-weight: 100;
 }

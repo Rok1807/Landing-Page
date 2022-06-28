@@ -1,52 +1,57 @@
 .oke {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     gap: 330px;
-    
+
 }
 
 .site-links {
     display: flex;
-    
+
 }
 
 ul {
-    display:flex;
+    display: flex;
     list-style-type: none;
     gap: 10px;
-  
+
 }
-.isale{
+
+.isale {
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    
+
 }
-.modal{
+
+.modal {
     display: flex;
     flex-direction: column;
     width: 350px;
     justify-content: center;
 }
-a{
+
+a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    
+
 }
 
-   
-.image{   
-height: 200px;
-width: 500px;
-background-color: #696e6e;
-display: flex;
-justify-content: center;
-align-items: center;
-color: #e5e7eb;}
-.header{
+
+.image {
+    height: 200px;
+    width: 500px;
+    background-color: #696e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.header {
     background-color: #1f2937;
     height: 400px;
     display: flex;
@@ -54,27 +59,32 @@ color: #e5e7eb;}
     justify-content: space-around;
     padding: 0 80px;
 
-    
+
 }
-.main-title{
+
+.main-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
-.sub-text{
+
+.sub-text {
     font-size: 18px;
     color: #e5e7eb;
 
 }
-.logo{
+
+.logo {
     font-size: 24px;
     color: #f9faf8;
 }
-body{
+
+body {
     margin: 0;
-    
+
 }
-.signup{
+
+.signup {
     color: #e5e7eb;
     background-color: #3882f6;
     border-radius: 4px;
@@ -82,9 +92,47 @@ body{
     padding: 10px 24px;
     margin-top: 10px;
 }
-img{
+
+img {
     height: 200px;
     width: 500px;
 }
 
 
+.small-imgcontainer {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.maing {
+    display: flex;
+    gap: 40px;
+}
+
+.small {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.small-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
